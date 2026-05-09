@@ -19,7 +19,7 @@ Free API keys also work for normal usage, and using multiple keys can help impro
 
 ---
 
-## Installation
+## 💻 Installation
 
 The program can can work on both **Windows** ( Windows 10/11 Recommended ) and **Linux** ( Make sure required dependencies can be installed.)
 
@@ -45,10 +45,19 @@ python main.py --api_key <api_key_here>
 ```
 where **<api_key_here>** requires a plain API key without the **'<'** and **'>'**
 
-**Run the Program**
+**• Run the Program:**
+
 Finally start the program by running the **main.py** file:
 ```
 python main.py
 ```
 It will kickstart your automation journey !
+
+## ✨ Instructions before Running :
+• Open a youtube short , with the comment window opened.
+
+• make sure to place the **terminal** on the left side of the comment section. otherwise it will not work.
+
+• run the main.py
+
 
