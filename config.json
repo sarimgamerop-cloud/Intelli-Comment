@@ -1,6 +1,5 @@
 {
   "api_key": "",
-  "debug": true,
+  "debug": false,
   "no_limit": false,
-  "type_prompt": "I am a professional and serious video game tech and old retro games video creator on youtube."
 }
