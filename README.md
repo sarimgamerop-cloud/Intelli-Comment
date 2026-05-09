@@ -23,17 +23,32 @@ Free API keys also work for normal usage, and using multiple keys can help impro
 
 The program can can work on both **Windows** ( Windows 10/11 Recommended ) and **Linux** ( Make sure required dependencies can be installed.)
 
-**Start of by Cloning the Project :**
+**• Start of by Cloning the Project :**
 ```
 git clone https://github.com/sarimgamerop-cloud/Intelli-Comment.git
 cd Intelli-Comment
 ```
-**Install the Dependencies :**
+**• Install the Dependencies :**
 ```
  pip install -r requirements.txt
 ```
-**(** *If something goes wrong make sure you are using the latest python version and your system supports these libraries.* **)**
-**Set Up the
+**(** *If something goes wrong make sure you are using the latest python version
+and your system supports these libraries.* **)**
 
+**• Setup the API key:**
 
+For the **Free usage** , go to the google official **AI** studio website : 
+🔑 [Generate Gemini API Key](https://aistudio.google.com/api-keys)
+and copy the generated **API** key then configure the key by :
+```
+python main.py --api_key <api_key_here>
+```
+where **<api_key_here>** requires a plain API key without the **'<'** and **'>'**
+
+**Run the Program**
+Finally start the program by running the **main.py** file:
+```
+python main.py
+```
+It will kickstart your automation journey !
 
