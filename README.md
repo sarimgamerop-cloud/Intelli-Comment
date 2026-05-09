@@ -61,15 +61,21 @@ It will kickstart your automation journey !
 • run the main.py
 
 ## 🛠 Options
-There are two **types** of options in the first release :
+There are three **types** of options in the first release :
 
-**Showing RAW OCR :** 
-to show the **RAW OCR TEXT** extracted from the screen and later modified, you can activate it by :
+**• Showing RAW OCR :** 
+to show the **RAW OCR TEXT** extracted from screen and later modified, you can activate it by :
 ```
 python config.py --debug
 ```
 
-**Removing Limitation :** To remove the limitation of the screenshot to be a **YouTube Comment** :
+**• Removing Limitation :** To remove the limitation of the screenshot to be a **YouTube Comment** :
 ```
-python config.py 
+python config.py --no_limit
+```
+
+**• Deleting Key :** In order to delete the previously initialized key use :
+```
+python config.py --delete_key
+```
 
